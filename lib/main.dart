@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_create/1st_ui.dart';
+import 'package:flutter_ui_create/Second_UI/2nd_ui.dart';
+import 'package:flutter_ui_create/Third_Ui/third_ui.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,6 +29,8 @@ class _MyAppState extends State<MyApp> {
           controller: _controller,
           children: [
             First(),
+            Second_UI(),
+            Third_Ui(),
           ],
         ),
       ),
